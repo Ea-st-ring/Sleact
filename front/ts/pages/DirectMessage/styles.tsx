@@ -6,11 +6,10 @@ export const Container = styled.div`
   height: calc(100vh - 38px);
   flex-flow: column;
   position: relative;
-  background-color: #fdf4e0;
 `;
 
 export const Header = styled.header`
-  height: 63px;
+  height: 64px;
   display: flex;
   width: 100%;
   --saf-0: rgba(var(--sk_foreground_low, 29, 28, 29), 0.13);
@@ -18,12 +17,8 @@ export const Header = styled.header`
   padding: 20px 16px 20px 20px;
   font-weight: bold;
   align-items: center;
-  
-  & .header-right {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    align-items: center;
+  & img {
+    margin-right: 5px;
   }
 `;
 
